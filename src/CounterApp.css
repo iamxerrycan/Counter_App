@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+    
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 30px;
+    height: 90vh;
+    width: 50%;
+    background-color: black;
+    gap:30px;
+  }
+  
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: deepskyblue;
+    transition: 2000ms;
+  }
+
+  #count{
+    color: aliceblue;
+    font-size: 20px;
+  }
+
+  .button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    width: 60%; /* Adjust the width to your preference */
+  }
