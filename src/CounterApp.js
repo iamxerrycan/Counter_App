@@ -21,7 +21,7 @@ function CounterApp() {
       <div className="icons">
         <div className="button-container">
        
-        <p id="count"> Count : {count}</p>
+        <p id="count">No:{count}</p>
         <button className="button" onClick={handleReset}>
           RESET
         </button>
