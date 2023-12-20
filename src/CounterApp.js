@@ -18,20 +18,19 @@ function CounterApp() {
 
   return (
     <div className="App">
-      <div className="icons">
-        <div className="button-container">
-       
-        <p id="count">No:{count}</p>
-        <button className="button" onClick={handleReset}>
-          RESET
-        </button>
-        <button className="button" onClick={handleMinus}>
-          -
-        </button>
-         <button className="button" onClick={handlePlus}>
-          +
-        </button>
-     
+      <div className="counter-box">
+        <p className="counter">Count: {count}</p>
+        <div className="buttons">
+      
+          <button className="button" onClick={handleMinus}>
+            -
+          </button>
+          <button className="button" onClick={handleReset}>
+            RESET
+          </button>
+          <button className="button" onClick={handlePlus}>
+            +
+          </button>
         </div>
       </div>
     </div>
@@ -39,3 +38,5 @@ function CounterApp() {
 }
 
 export default CounterApp;
+
+
