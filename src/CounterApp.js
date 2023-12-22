@@ -25,13 +25,14 @@ function CounterApp() {
           <button className="button" onClick={handleMinus}>
             -
           </button>
-          <button className="button" onClick={handleReset}>
-            RESET
-          </button>
+       
           <button className="button" onClick={handlePlus}>
             +
           </button>
         </div>
+        <button className="button" onClick={handleReset}>
+            RESET
+          </button>
       </div>
     </div>
   );
