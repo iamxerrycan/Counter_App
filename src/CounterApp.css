@@ -64,13 +64,13 @@
   .App,
   .counter-box {
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 100px);
     /* Optionally, you can set other styles as needed */
     /* For example: */
     /* padding: 10px; */
     /* margin: 0; */
     /* display: block; */
     /* etc. */
-    display: block;
+
   }
 }
