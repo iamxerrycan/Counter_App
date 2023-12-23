@@ -49,27 +49,27 @@
 }
 
 .button {
-  display: inline-block;
   padding: 10px 20px;
   border: none;
-  background-color: #3498db;
+  border-radius: 5px;
   color: white;
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 18px;
-  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #4facfe, #00f2fe);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease-in-out;
 }
 
 .button:hover {
-  background-color: deepskyblue;
-  transition: background-color 0.3s ease;
+  transform: translateY(-2px) translateY(-2px);
 }
 
 @media screen and (max-width: 480px) {
   .App,
   .counter-box {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh);
     /* Optionally, you can set other styles as needed */
     /* For example: */
     /* padding: 10px; */
@@ -77,5 +77,21 @@
     /* display: block; */
     /* etc. */
 
+  }
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #4facfe, #00f2fe);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    transform: translateY(-2px);
   }
 }
