@@ -30,6 +30,11 @@
   width: 300px;
 }
 .counter {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   font-size: 24px;
   color: aliceblue;
   border: 2px solid wheat;
