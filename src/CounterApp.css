@@ -48,6 +48,13 @@
   margin-top: 40px;
 }
 
+.counter-box{
+  box-shadow: 0 0 5px rgb(0, 89, 89) , 0 0 25px rgb(0, 93, 93);
+}
+.counter-box:hover{
+  box-shadow: 0 0 5px cyan , 0 0 25px cyan , 0 0 50px cyan  ;
+}
+
 .button {
   padding: 10px 20px;
   border: none;
